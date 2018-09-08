@@ -23,6 +23,7 @@ WORKDIR /code
 
 EXPOSE 8000
 
+COPY pip.conf /root/.pip/pip.conf
 COPY gunicorn.conf  /etc/gunicorn/gunicorn.conf
 COPY server.py  /code
 RUN mkdir /code/logs
