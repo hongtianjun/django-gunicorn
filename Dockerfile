@@ -1,5 +1,5 @@
 #
-FROM python:3.7.0-alpine3.8
+FROM python:3.7.3-alpine3.9
 LABEL maintainer="https://github.com/hongtianjun/"
 
 
